@@ -1,0 +1,9 @@
+# PostgreSQL
+FROM postgres:latest
+
+# Юзер, пароль и бд
+ENV POSTGRES_USER=test
+ENV POSTGRES_PASSWORD=test
+ENV POSTGRES_DB=test
+
+EXPOSE 5432
